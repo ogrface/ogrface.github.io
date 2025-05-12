@@ -21,19 +21,19 @@
 title: Greg Ough. Developer.
 email: gregough@outlook.com.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+  Experienced and enthusiastic Senior Software Engineer with over two decades of experience in crafting software solutions 
+  and spearheading projects that deliver strategic benefits aligned with visionary goals. Leveraging a blend of expert 
+  technical know-how and robust leadership abilities, adept at tackling complex challenges, expanding SaaS products, and 
+  imparting expertise to empower teams in accomplishing their objectives.
+baseurl: "/_site" # the subpath of your site, e.g. /blog
 domain: "ogrface.github.io"
 url: "https://ogrface.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  ogrface
 
 # Build settings
-theme: jekyll-theme-midnight
-plugins:
-  - jekyll-feed
+# theme: jekyll-theme-midnight
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -43,14 +43,12 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - src
+   - package.json
