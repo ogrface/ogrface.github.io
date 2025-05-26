@@ -1,3 +1,162 @@
-theme: jekyll-theme-minimal
-title: Greg Ough's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Site
+repository: ogrface/ogrface.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Gregory J. Ough
+title: Software Engineer
+email: gregough@outlook.com
+# email_title: Email (Email title override)
+phone: 701-866-2816
+# phone_title: Phone (Phone title override)
+website: ogrface.github.io
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+twitter_username: ogrface
+github_username:  ogrface
+stackoverflow_username: oughgr
+facebook_username: oughgr
+instagram_username: oughgr
+linkedin_username: gregough
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/Greg profile 2022-1.png
+about_content: | # this will include new lines to allow paragraphs
+  Experienced and enthusiastic Senior Software Engineer with over two decades of experience in crafting software solutions and 
+  spearheading projects that deliver strategic benefits aligned with visionary goals. Leveraging a blend of expert technical know-how 
+  and robust leadership abilities, adept at tackling complex challenges, expanding SaaS products, and imparting expertise to empower 
+  teams in accomplishing their objectives. 
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Microsoft Corporation
+        sub_title: Senior Software Engineer
+        caption: September 2019 - January 2025
+        link: microsoft.com
+        quote: >
+          Microsoft Corporation is an American multinational technology corporation that produces computer software, consumer electronics, personal computers, and related services.
+        description: | # this will include new lines to allow paragraphs
+          - Technical lead of a feature crew to implement and exposing a set of public APIs for data retrieval through Dataverse using Dynamics AX data entities and virtual entities which enabled Dynamics 365 customers to integrate with their preferred payroll system.
+          - Designed and implemented a set of criteria the worker must meet to be considered ready to pay that is extensible for customers using a .NET MEF like class discovery system in X++ to provide Dynamics 365 Human Resources customers the ability to identify workers as ready to pay.
+          - Adapted to learn new technologies and apply them to enabled Dynamics 365 Scheduling customer to integrate worker, skill and certificate data from Human Resources in Dynamics 365 Finance & Operations by implementing a new CRM package consisting of plugins, virtual entities, Dual Write maps and customizations that facilitates assigning a worker to a bookable resource and the worker's skills and certificates are merged into the resource's characteristics and synced in real time so the resource can be utilized in Project Operations or Field Service scheduling scenarios.
+          - Onboarded and mentored team members to new processes as Dataverse engineers to contribute to the HR to Scheduling integration work mentioned above by creating a new Azure DevOps Git repository with the infrastructure for YAML build pipelines, MS Build artifacts and dependencies, new CRM solution for adding components, plugins and dual write maps and teaching the feature crew how to effectively and efficiently work in this new repository so we could deliver the feature.
+          - Employed rapid prototyping to determine direction for design and implementation of HR To Scheduling integration to create a real time sync between Dataverse and Dynamics 365 Finance & Operations.
+          - Brainstorming with feature crew to determine the best design for the feature.
+          - Work item breakdown and estimate to provide accurate sprint planning and hit target delivery dates using Azure DevOps.
+      - layout: right
+        title: Microsoft Corporation
+        sub_title: Software Engineer II
+        caption: October 2013 - September 2019
+        link: microsoft.com
+        quote: >
+          Microsoft Corporation is an American multinational technology corporation that produces computer software, consumer electronics, personal computers, and related services.
+        description: | # this will include new lines to allow paragraphs
+          -	Contributed to an experimental Human Resources recruiting application on a newly released web-based implementation of the Dynamics AX platform called "Rainier" by designing and implementing an interview experience where users could rate candidates and implemented custom controls in HTML, JavaScript and X++.
+          -	Contributed to an organization wide effort to migrate forms, classes, tables, and data entities from Dynamics AX 2012 desktop application to the new web-based platform specifically for the Cash Management module by updating obsolete coding patterns, applying well know form patterns, and providing functional parity.
+          -	Contributed to the design and implementation of a standalone Human Resource SaaS offering based on the Dynamics AX platform that became Dynamics 365 Human Resources by reimagining and implementing the Goals and Reviews functionality that provided customizable experience of doing employee discussions of various types (e.g. year-end reviews, weekly one on ones) using X++ forms, classes and custom controls.
+          -	Enabled engineers to improve the quality of the HR Standalone application by modifying the MS Build based build system to run Visual Studio test console and ADO YAML pipelines to run tests during pull requests submitted to the Git repository.
+          -	Contributed to the design and implementation an integration with near real time sync and nightly recovery data merge between Dynamics 365 Human Resources and Dataverse by creating HR tables schema and solution in Dataverse, using the XRM SDK to write data directly to Dataverse and connecting to a Data Sync service to poll Dataverse for updates to records and write them back to Dynamics 365 HR.
+
+      - layout: right
+        title: Microsoft Corporation
+        sub_title: Software Development Engineer in Test 
+        caption: October 2008 - Octoboer 2013
+        link: microsoft.com
+        quote: >
+          Microsoft Corporation is an American multinational technology corporation that produces computer software, consumer electronics, personal computers, and related services.
+        description: | # this will include new lines to allow paragraphs
+          -	Worked as part of a feature crew to deliver Payroll journal posting functionality by giving feedback on engineering design and providing quality assurance of the feature through test automation and logging bugs for issues.
+          -	Improved the quality of the Human Resources module of Dynamics AX 2012, 2012 R2 and R3 by designing and implementing test strategies and writing automated tests to provide confidence in code quality and efficiency.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Minnesota State University Moorhead
+        sub_title: BS Computer Science
+        link: https://www.mnstate.edu/
+        link_text: Minnesota State University Moorhead
+        additional_links:
+          - title:  MSUM Computer Science Department
+            icon: fab fa-github
+            url: https://www.mnstate.edu/academics/college-science-health-engineering-technology/computer-science/
+        caption: 1999 - 2002
+        quote: >
+          Go Dragons!
+        description: | # this will include new lines to allow paragraphs
+          Bachelor of Science in Computer Science.
+      - layout: top-right
+        title: Williston State College
+        sub_title: AS Computer Science
+        link: https://www.willistonstate.edu/
+        link_text: Williston State College
+        caption: 1997 - 1999
+        quote: >
+          Go Tetons!
+        description: | # this will include new lines to allow paragraphs
+          Associate of Science in Computer Science.
+
+  - title: Core Competencies
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      -	20+ years of experience in software engineering, computer science and technical discipline maintaining and delivering production software
+      -	Coding in multiple languages
+      -	Strong leadership in managing software engineering teams, features, and projects
+      -	High integrity professional striving for reliability and quality
+      -	Honesty in communicating expectations and accomplishments
+      -	Transparency to build trust among teams
+      -	Accountability that promotes responsible decision making and leadership
+      -	Software security, static analysis, dynamic analysis
+      -	Best practices in creating high quality, secure code	•	Effective verbal and written communication skills as well as confidence presenting to large groups 
+      -	Strategic mindset for achieving success and meeting goals through foresight in planning
+      -	Proven knowledge in Agile methodologies for software development
+      -	Growth mindset to take risks and embrace learning with daily effort and persistence
+      -	Approachable, well respected, and able to adapt to differing personality traits and leadership styles while encouraging diversity and inclusion
+      -	Determination and tenacity in analytical problem solving
+      -	Skilled mentor and teacher with a passion to share knowledge
+
+  - title: Recommendations
+    layout: list
+    content:
+      - layout: left
+        link: https://www.linkedin.com/in/gregough/details/recommendations/
+        link_text: Recommendations on LinkedIn
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+theme: modern-resume-theme
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
